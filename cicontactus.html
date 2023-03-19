@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Contactus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/84d43fa2e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">     
+    <title>contactus</title>
+<style>
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #e7eefd;
+}html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+} 
+ 
+
+header {
+     background-color: rgb(235, 243, 253);
+    }
+      
+     
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+   
+    .navbar {
+      margin-bottom: 0;
+      border-radius:0;
+      background-color: none;
+      padding:10px;
+      margin-top: 0px;
+      text-shadow: 3, 3 2;
+      font-size: 20;
+      color: #e7eefd;
+      border-radius: 50%;
+    }
+    font{ font-size: 5;
+    font-weight: 100;
+    color:black; }
+
+    .icon {
+      width: 80px;
+      height: 80px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 20;
+      padding: 12px     
+    }
+
+
+/*icon setting*/
+
+.glyphicon-search{
+  color: rgb(20, 18, 18);
+  font-size: 8px;}
+ 
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}  
+.fa:hover {
+    opacity:0.7;
+}
+
+.fa-facebook {
+  background:none;
+  color: rgb(206, 94, 20);
+
+}
+
+.fa-twitter {
+  background: none;
+  color:  rgb(89, 209, 183);
+
+}
+
+ .fa-instagram {
+  background:none;
+  color: rgb(199, 43, 152);
+
+ }
+
+.fa-youtube {
+  background: none;
+  color: rgb(156, 37, 224);
+ 
+}
+.fa-linkedin {
+  background: none;
+  color:  rgb(69, 148, 238);
+  
+}
+/* Style the container/contact section */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #e7eefd;
+  color: white;
+}
+
+
+.container {
+  border-radius: 10px;
+  background-color: rgb(224, 221, 215);
+  padding: 30px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0  rgb(161, 178, 199);
+  background-color: rgb(180, 186, 197) ;
+  margin: 8px;
+  padding: 20px
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row { color:rgb(60, 8, 73);
+  border-radius: 3%;
+  border-color: rgb(66, 18, 105);
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+
+
+
+.title {
+  color: grey;
+}
+
+
+
+/*setting button style*/
+.button {
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(166, 173, 182);
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #330668;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7d18c0;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  
+/*
+   
+    .father{
+    background-color: rgb(207, 144, 8);
+    height: 30px;
+
+    &:hover .son{
+    display: block;  
+    }
+  }
+.son{
+    background-color: cadetblue;
+    height: 20px;
+    float: left;     
+    display: none;
+}
+ */
+
+/* Add a gray background color and some padding to the footer */
+ footer {
+      background-color:none;
+      padding: 25px;
+ }
+ .ft{  text-align:"center";}
+ .img{ 
+   border-radius: 20%;
+}   
+</style>
+<script>
+  /*
+   
+/*function changeStyle(){
+
+  document.selection.createRange("heading").execCommand("Bold");
+  document.selection.createRange("heading").execCommand("FontColor","","red");
+  document.selection.createRange("heading").execCommand("FontSize","","2");
+}*/
+ 
+
+/* CHANG COLOR AND FONTSIZE*/
+
+function myFunction() {
+          document.getElementById("demo").style.fontSize = "large";
+          document.getElementById("demo").style.color = "purple";
+       
+        }
+
+/*function styleAlign(){
+           document.getElementById("p1").style= "text-align: right; border-style:insect; font-size:larger; font-weight: bold";
+}*/
+
+/* change the color of the title*/
+function changeStyle(){
+  document.getElementById("heading").style.color="purple";
+  var x=document.getElementById("heading");  
+}
+
+/*  ALIGN INFORMATION TO RIGHT SIDE OF PAGE WITH HOVER */
+
+    $(document).ready(function(){ 
+
+      $("p").hover(function(){ 
+
+        $(this).css("text-align", "right"); 
+
+        }, function(){ 
+
+      }); 
+
+    }); 
+
+    
+
+ </script>
+</head>
+<body>
+  <!--setting header-->
+  <div >
+    <h1 class = "font" font-size ="88" align = "center" ><img src="image/logo1.png" width= "100" height="100"><b color = "grey">Captivate Interiors</b>
+    <small>Creating idea internal look in local Since 1998</small>
+    </h1> 
+  </div> 
+
+  <!--setting navbar-->
+  <div class="container-fluid"></div>
+  <nav class="navbar  navbar-defult" >
+   
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#myNavbar" >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                 
+
+        </button>      
+      </div>      
+      <div class="nav navbar-nav navbar-left"  align="float-inline" width="1092px">        
+        <ul class="nav nav-tabs" > 
+          <li><a href="# "><span><img src="image/logo1.png" width="50"  height="50" align ="center"></span></a></li>   
+          <li><a  href="# ">Captivate Interiors</a></li>        
+          <li class="active"><a href="CIHome.html" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+          <li><a href="CIaboutus1.html" > <span class="glyphicon glyphicon-user" aria-hidden="true" ></span>About us</a></li>       
+          <li><a href="cicontactus.html" ><span class="glyphicon glyphicon-envelope"></span>Contact us</a></li>
+          <li><a href="support.html" ><span class="glyphicon glyphicon-headphones"></span>Support</a></li>     
+          
+          <li><a href="cishop.html" ><span class="glyphicon glyphicon-shopping-cart"></span>Shop</a></li>
+         
+        
+        <li><a href=" # "><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href=" # "><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="# " id="navbardrop" data-toggle="dropdown"><span class="fas fa-hands-helping"></span>
+				Help</a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="# ">Booking</a></li>
+          <li><a class="dropdown-item" href="# ">Quate</a></li>
+          <li><a class="dropdown-item" href="# ">Project management</a></li>
+          <li><a class="dropdown-item" href="# ">Repiring</a></li>
+          </ul>
+        </li>
+          <li><form class="navbar-form navbar-left" action="/action_page.php">
+                  <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit" cplor ="rgb(16, 134, 231)">
+                  <i class="glyphicon glyphicon-search"color ="rgb(16, 134, 231)"></i>
+                  </button>
+                  </div>
+                  </div>                
+                </form> 
+          </li>
+          <li><a href=" # "><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>          
+      
+          <li><a href="https://www.facebook.com" class="fa fa-facebook" width="50" height="50" padding="0px"></a></li>
+          <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+          <li><a href="https://www.facebook.com" class="fa fa-instagram"></a></li>
+          <li><a href="https://www.linkedin.com" class="fa fa-linkedin" aria-hidden="true"></a></li>
+          <li><a href="https://www.facebook.com" class="fa fa-youtube" ></a></li>
+          </ul> 
+      </div>    
+  </nav>
+</div>
+<!--setting contact information content-->
+<div class="container" >
+<div  id="div" style="text-align:center" onclick="styleChange()">
+ <div >
+ <h2 type="text" id="heading" onclick="changeStyle() " ><b>Contact Us</b></h2>   
+ <!--  hide and show the content by click the button -->
+
+ <button type="button" class="btn btn-defult"  data-toggle="collapse" data-target="#demo" >Details</button>
+</div>
+<!-- < button data-toggle="collapse" data-target="#demo"><div class="collapse" >use for hide the informaation-->
+  <div id="demo" onclick="myFunction()"class="collapse">
+      <p type="text" id="p1" align="center"  onclick="changeStyle1()"><b>Address: 89 Braodway Newmarket Epsom, Auckland.1022</b></p>
+      <p id="p2" align="center" onclick="changeStyle2()"><b>phone:095689777</b></p>
+      <p id="p3" align="center" onclick="changeStyle3()"><b>fax: 0987654427</b></p>
+      <p id="p4" align="center" onclick="changeStyle4()"><b>Email: info@captivateinteriors.com</b></p>    
+      <p id="p5" align="center"onclick="changeStyle5()"><b>Thinking of changing or something new? leave us a message:</b></p>
+      <br><button onclick="styleChange()"  >Change style</button>      
+  </div>
+</div> 
+
+<!--setting contact form-->
+  <div class="row">
+    <!--insert two columns-->
+    <div class="column">                  
+      <img src="image/service2.jpg" class="img-thumbnail" alt="communicate is important" width="450" height="350" align="centre"> 
+      <img src="image/meeting.jpg" class="img-thumbnail" alt="communicate is important" width="450" height="350" align="right">           
+    </div>   
+     <div class="column">
+      <form action="/action_page.php"   class="form-inline" class="fa fa-align-right" aria-hidden="true">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your First name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="Email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email..">
+    
+        <label for="phonenumber">Phonenumber</label>
+        <input type="text" id="phone" name="phonenumber" placeholder="Your phonenumber..">
+      
+          <div>
+          <label for="fsubject">Subject</label>
+          <input type="text" id="fsubject" name="subject" placeholder="Your subject.." class="form-contral">
+         </div>
+        </form>
+        <label for="subject">Property type</label>
+        <select id="subject" name="subject">
+          <option value="australia">Restruant</option>
+          <option value="newzealand">Office</option>
+          <option value="usa">Home</option>
+          <option value="usa">Hotel</option>
+        </select>
+        <label for="subject">Leave message here</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+  <hr width="1850" weight=50px float="right" color = "black">
+<footer class="container-fluid text-center">  
+    <p class="ft" align="center" margin="5px"><font size="2" face="arial" color="white">FOLLOW US</font></p>
+    <p><a href="https://www.facebook.com"  class="fa fa-facebook"></a>
+      <a href="https://twitter.com" class="fa fa-twitter"></a>
+      <a href="https://www.facebook.com" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com" class="fa fa-linkedin" aria-hidden="true"></a>
+      <a href="https://www.facebook.com" class="fa fa-youtube" >
+    </a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Aboutus</title>
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <script src="https://kit.fontawesome.com/84d43fa2e4.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+    <script type="text/javascript"></script>
+    
+    <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+       
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #e7eefd;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+     background-color: rgb(235, 243, 253);
+     font-size: 68;
+     text-shadow: 3, 3 2;}
+      
+.navbar {
+      margin-bottom: -3px;
+      border-radius:0;
+      background-color: none;
+      padding:0px;
+      margin-top: 0px;
+      text-shadow: 3, 3 2;
+      font-size: 20;
+      color:white;
+      border-radius: 50%;
+ }
+font{ font-size: 5;
+    font-weight: 100;
+    color:black;
+}
+
+/*icon setting*/
+.icon {
+      width: 80px;
+      height: 80px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 20;
+      padding: 12px
+}
+
+.glyphicon-search{
+  color: rgb(77, 38, 219);
+  font-size: 8px;}
+ 
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}  
+.fa:hover {
+    opacity:0.7;
+}
+
+.fa-facebook {
+  background:none;
+  color: rgb(206, 94, 20);
+
+}
+
+.fa-twitter {
+  background: none;
+  color:  rgb(89, 209, 183);
+
+}
+
+ .fa-instagram {
+  background:none;
+  color: rgb(199, 43, 152);
+
+ }
+
+.fa-youtube {
+  background: none;
+  color: rgb(156, 37, 224);
+ 
+}
+.fa-linkedin {
+  background: none;
+  color:  rgb(69, 148, 238);
+  
+}
+
+#demo{ padding: 30px, 20px;}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+ 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0  rgb(161, 178, 199);
+  background-color: rgb(180, 186, 197) ;
+  margin: 8px;
+  border-radius: 2%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #e7eefd;
+  color: white;
+}
+
+.container {
+  padding: 10px, 16px;
+  text-align: left;
+  text-shadow: dimgray;
+  text-size-adjust:initial;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+  border-radius: 5%;
+  padding: 5px;
+}
+.title {
+  color: grey;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.button {
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(166, 173, 182);
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;;
+}
+</style>
+<script>
+   function showbut(){
+           var x = document.getElementById("showbutton")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow(){
+            var x = document.getElementById("hidden")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+        function showbut1(){
+            var x = document.getElementById("showbutton1")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow1(){
+            var x = document.getElementById("hidden1")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+
+
+        function showbut2(){
+           var x = document.getElementById("showbutton2")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow2(){
+            var x = document.getElementById("hidden2")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+        function showbut3(){
+            var x = document.getElementById("showbutton3")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow3(){
+            var x = document.getElementById("hidden3")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+        function showbut4(){
+            var x = document.getElementById("showbutton4")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow4(){
+            var x = document.getElementById("hidden4")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+        function showbut5(){
+            var x = document.getElementById("showbutton5")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow5(){
+            var x = document.getElementById("hidden5")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+        function showbut6(){
+            var x = document.getElementById("showbutton6")
+            if(x.style.display === "none" ){
+               x.style.display = "block";    
+            }
+            else if(x.style.display === "block"){
+                x.style.display = "none"
+            }
+        }
+        function hiderow6(){
+            var x = document.getElementById("hidden6")
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }
+        }
+/*change the pictures of the team*/
+function lighton() {
+  document.getElementById('img1').src = "image/logo.png";
+}
+
+function lightoff() {
+  document.getElementById('img1').src = "image/logo1.jpg";
+}
+
+  /*hide all the buttons on the webpage. show the button when mouseon the elements.  */
+   window.onload=function(){
+              document.getElementById("button").style.display='none';
+            
+            }
+   function showButton(){
+              document.getElementById("button").style.display='block';
+            }
+    
+    /*
+      onclick
+      changeImg
+      
+    */
+  /* 
+  function changeImg (){ 
+    alert("Change picture")
+    var img = document.getElementById("img");
+      img.src = "designer2.jpg";
+  }
+
+function changeName(){
+   
+   document.getElementById("name").innerHTML="Mike Ross";
+     
+   }  
+function changeTitle(){
+   
+   document.getElementById("title").innerHTML="Manager Director";
+     
+   }  
+function changeText(){
+   
+  document.getElementById("text").innerHTML="Mike, our MD, is the rewarded young designer in the industry. His works full of innovation and imagination. If you like the Post-industrial style and Avant-garde design, don't hesitate to contact him!";
+    
+  }   
+function changeText1(){
+   
+   document.getElementById("text1").innerHTML="mike.ross@captivateinteriors.com";
+     
+   }   
+*/   
+/*click mouse to change picture and info of the  CEO to MD*/
+function ChangeMd(){
+  alert("Change picture")
+  var img = document.getElementById("img");
+  img.src = "image/designer2.jpg";
+  document.getElementById("name").innerHTML="Mike Ross";
+  document.getElementById("title").innerHTML="Manager Director";
+  document.getElementById("text").innerHTML="Mike, our MD, is the rewarded young designer in the industry. His works full of innovation and imagination. If you like the Post-industrial style and Avant-garde design, don't hesitate to contact him!";
+  document.getElementById("text1").innerHTML="mike.ross@captivateinteriors.com"; 
+}
+/*click mouse to hide clerks */
+
+function hideMd(){
+            document.getElementById("Md").style.visibility = "hidden";
+           
+        }
+function hideText(){ document.getElementById("MdText").style.visibility = "hidden";    
+    
+    }
+function hideJone(){
+            document.getElementById("hidden").style.visibility = "hidden";
+        }
+
+function hideLeo(){
+            document.getElementById("Leo").style.visibility = "hidden";
+        }
+
+function hideJane(){
+            document.getElementById("Jane").style.visibility = "hidden";
+        }
+function hideTina(){
+            document.getElementById("Tina").style.visibility = "hidden";
+        }
+
+function showImage() { 
+
+var img = document.getElementById('clerk'); 
+
+img.style.visibility = 'hidden'; 
+
+}    
+
+function hideCard() { 
+
+var p = document.getElementById('discript'); 
+
+p.style.visibility = 'hidden'; 
+
+} 
+
+ 
+</script>
+</head>
+
+<body>
+  <div >
+    <h1 class = "font" font-size ="88" align = "center" ><img src="image/logo1.png" width= "100" height="100"><b color = "grey">Captivate Interiors</b>
+    <small>Creating idea internal look in local Since 1998</small>
+    </h1> 
+  </div> 
+  <div class="container-fluid"></div>
+  <nav class="navbar  navbar-defult" >
+   
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#myNavbar" >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                 
+
+        </button>      
+      </div>      
+      <div class="nav navbar-nav navbar-left"  align="float-inline" width="1092px">        
+        <ul class="nav nav-tabs" > 
+          <li><a href="# "><span><img src="image/logo1.png" width= "50px" height="50px" align ="bottom" margin="-3px" padding="-5px"></span></a></li>   
+          <li><a  href="# ">Captivate Interiors</a></li>        
+          <li class="active"><a href="CIHome.html" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+          <li><a href="CIaboutus1.html" > <span class="glyphicon glyphicon-user" aria-hidden="true" ></span>About us</a></li>       
+          <li><a href="cicontactus.html" ><span class="glyphicon glyphicon-envelope"></span>Contact us</a></li>
+          <li><a href="support.html" ><span class="glyphicon glyphicon-headphones"></span>Support</a></li>      
+          
+          <li><a href="cishop.html" ><span class="glyphicon glyphicon-shopping-cart"></span>Shop</a></li>
+         
+        
+        <li><a href=" # "><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href=" # "><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="# " id="navbardrop" data-toggle="dropdown"><span class="fas fa-hands-helping"></span>
+				Help</a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="# ">Booking</a></li>
+          <li><a class="dropdown-item" href="# ">Quate</a></li>
+          <li><a class="dropdown-item" href="# ">Project management</a></li>
+          <li><a class="dropdown-item" href="# ">Repiring</a></li>
+          </ul>
+        </li>
+          <li><form class="navbar-form navbar-left" action="/action_page.php">
+                  <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit" cplor ="rgb(16, 134, 231)">
+                  <i class="glyphicon glyphicon-search"color ="rgb(16, 134, 231)"></i>
+                  </button>
+                  </div>
+                  </div>                
+                </form> 
+          </li>
+          <li><a href=" # "><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>          
+      
+          <li><a href="https://www.facebook.com" class="fa fa-facebook" width="50" height="50" padding="0px"></a></li>
+          <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+          <li><a href="https://www.facebook.com" class="fa fa-instagram"></a></li>
+          <li><a href="https://www.linkedin.com" class="fa fa-linkedin" aria-hidden="true"></a></li>
+          <li><a href="https://www.facebook.com" class="fa fa-youtube" ></a></li>
+          </ul> 
+      </div>
+    
+  </nav>
+</div>
+  <!--introduction-->
+ <!-- <hr width="1850" weight=50px float="right" color = "darkgrey">
+<div class="container" id="hidden" style="display: block;">  
+  <div class="row">    
+    <div class="col-sm-4" style="background-color:lavender;">     
+      <div class="card"  color = "grey">
+      <div>-->
+   
+      <br>  
+      <!--move mouse on the picture changing the picture -->
+     <!-- <img id="img1" alt="company" style="width:100%" onmousedown="lighton()" onmouseup="lightoff()" src="logo1.png" >
+      </div>
+      <hr width="100%" color="grey" weight="100">
+      <div class="container">
+          <h2>Captivate Interiors</h2>
+          <p class="title">Since 1998</p>
+      </div>      
+      </div>
+    </div>
+    <div class="col-sm-8" style="background-color:lavenderblush;">
+       
+      <div class="card" color = "grey" > 
+      <div  id= "demo" class="container">       
+      <h1 align ="center" >About Us </h1>
+      <hr width="100%" color ="black">
+    <br>
+    <div class="text-box">
+    <p><h3>Captivate Interiors, founded 1998, is one of the top interior design companies in New Zealand. Our clients cover most of the industry area. We have good reputation not only in hotel and restaurant interior design and. We offer office and home refining plan as well. We are happy to communicate and inspire your imagination for your property. </h3></p>
+    <br><p><h3>David our CEO and Founder, who grows his small studio to the top company in the industry, believes that every idea is worthful to fulfil! And our professional team will do our best to make your dream and blue map come true!</h3>  </p>
+    <br><p><h3>Captivate Interiors, Create your dream! renew your life! </h3>  </p>
+    </div><br>
+     </div> 
+     
+   </div>
+  </div>
+</div>
+</div>-->
+<div  class="container">  
+    <h1  align="center">Our Team </h1>
+    <hr width="100%" weight="500px" color="black">
+</div>
+ 
+<!--1.CEO section-->
+<div class="container" id="hidden" style="display: block;">   
+    <div class="row">    
+      <div class="col-sm-4" style="background-color:lavender;">     
+        <div class="card"  color = "grey">
+        <div>        
+        <br>            
+         <div id="clerk" class="card" color ="grey" onclick="ChangeMd()">
+         <img id=img src="image/CEO.jpg"  alt="CEO" style="width:80%" onclick="changeImg()">
+        </div>
+        </div>       
+      </div>  
+    </div> 
+      <div class="col-sm-8" style="background-color:lavenderblush;">         
+        <div class="card" color = "grey" > 
+        <div  id= "demo" class="container">         
+      <br>
+      <div class="text-box">
+      <div  id= "discript" class="container" >
+        <h2 id= "name" onclick="changeName()">David Johnson</h2>
+        <hr width="100%" color ="black">
+        <p class="title" id="title" color ="grey" onclick="changeTitle()">CEO & Founder</p>
+        <p id = "text" onclick="changeText()">Not only CEO, But also top designer and reliable leader of our outstanding team. As a sucessful business man he is famous with his outstanding works and good reputation.  </p>
+        <p id = "text1" onclick="changeText1()">Email: david.johnson@captivateinteriors.com</p>
+        <input type="button" value="Change" onclick="ChangeMd()"> 
+      </div><br>
+    </div>        
+    </div>   
+</div>  
+</div> 
+</div> 
+</div>  
+
+<!--2. MD section-->
+<div class="container"   style="display: block;">   
+    <div class="row"  id="Md" onclick="hideMd()">    
+      <div class="col-sm-4" style="background-color:lavender;">     
+        <div class="card"  id="Md"color = "grey"  onclick="hideMd()" >            
+        <br>
+        <!--move mouse on the picture hide the section -->      
+         <img   src="image/designer2.jpg" alt="Mike" style="width:80%"  >   
+       </div>
+    </div>           
+     
+    <div class="col-sm-8" style="background-color:lavenderblush;">         
+        <div class="card" id="MDText" color = "grey" onclick="hideText()" > 
+        <div  id= "demo" class="container">      
+      <br>
+    <div class="text-box">
+      <div  id= "discript" class="container" >
+        <h2 >Mike Ross</h2>
+        <hr width="100%" color ="black">
+        <p class="title">Manager Director</p>
+        <div id="text1">
+            <p >Mike, our MD, is the rewarded young designer in the industry. His works full of innovation and imagination. If you like the Post-industrial style and Avant-garde design, don't hesitate to contact him!</p>
+        </div>
+        <p>mike.ross@captivateinteriors.com</p>
+        <input type="button" value="Hide" onclick="hideText()"> 
+      </div><br>
+    </div>        
+  </div>   
+</div>  
+</div>
+
+
+
+
+<!-- 3 show button by moving mouse and click button to change and hide the staff(ceo+md+4stuff) -->
+<!--3.1. hide MD section-->
+<!--<div class="container" id="hidden" style="display: block;">
+ <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">
+        <div class="card"  color = "grey">
+            <img  id= "myimage" class="stuffImg" src="image/CEO.jpg"  width="80%" onmouseover="showbut()">  
+       </div>
+   </div>
+    <br>
+    <br>    
+    <div id="ceo " class="col-sm-8" style="background-color:lavenderblush;">         
+        <div class="card" color = "grey" > 
+        <div  id= "demo" class="container">         
+        <br>
+         <div class="text-box">
+         <div  id= "discript" class="container" >
+        <h2 id= "name" onclick="myFunction()">David Johnson</h2>
+        <hr width="100%" color ="black">
+        <p class="title" id="title" color ="grey" onclick="changeTitle()">CEO & Founder</p>
+        <p id = "text" onclick="changeText()">Not only CEO, But also top designer and reliable leader of our outstanding team. As a sucessful business man he is famous with his outstanding works and good reputation.  </p>
+        <p id = "text1" onclick="changeText1()">Email: david.johnson@captivateinteriors.com</p>
+        <button onclick="hiderow()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> 
+        </div>
+         <br>
+       </div>        
+       </div>   
+       </div>
+    </div>
+</div>
+</div>-->
+
+
+<!--3.2 change ceo to MD-->
+<!--<div class="Box container" id="hidden1" style="display: block;">
+<div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">
+        <img class="stuffImg" src="image/designer2.jpg"  width="80%" onmouseover="showbut1()">
+    </div>
+<br><br>
+<div class="col-sm-8 style=" style="background-color:lavenderblush;">
+    <div  id= "demo" class="container">      
+    <div class="card" color = "grey" > 
+        <br>
+        <div class="text-box">
+        <div  id= "discript" class="container" >
+          <h2  onclick="myFunction()">Mike Ross </h2>
+          <hr width="100%" color ="black">
+          <p class="title">Manager Director</p>
+          <div id="text1">
+              <p id="demo" >Mike, our MD, is the rewarded young designer in the industry. His works full of innovation and imagination. If you like the Post-industrial style and Avant-garde design, don't hesitate to contact him!</p>
+              </div>
+            <p>mike.ross@captivateinteriors.com</p>   
+            <button onclick="hiderow1()" class="btn btn-outline-dark" id="showbutton1" style="display: none;">hide</button>       
+        </div><br>
+       
+      </div>        
+      </div> 
+      </div>  
+    </p>
+  
+</div>
+</div>
+</div>-->
+
+<!--hide Jone-->
+<div class="Box container" id="hidden2" style="display: block;">
+    <div class="row">
+        <div class="col-sm-4" style="background-color:lavender;">
+    <img class="stuffImg" src="image/coo1.jpg"  width= "80%" onmouseover="showbut2()">
+        </div>
+    <br><br>
+
+    <div class="col-sm-8 style=" style="background-color:lavenderblush;">
+        <div  id= "demo" class="container">      
+        <div class="card" color = "grey" > 
+            <br>
+            <div class="text-box">
+            <div  id= "discript" class="container" >
+              <h2  onclick="myFunction()">Jone Doe </h2>
+              <hr width="100%" color ="black">
+              <p class="title">Designer</p>
+              <p>Jone is our senior designer with 10-year experiences on the hotel and restaurant design. If you want a luxury style but not that much waste of your money, she is the best one you can talk to!</p>
+              <p>jone.doe@captivateinteriors.com</p>    
+              <button onclick="hiderow2()" class="btn btn-outline-dark" id="showbutton2" style="display: none;">hide</button>         
+            </div><br>
+            </div>        
+        </div> 
+     </div>      
+    </div>
+  </div>
+</div>
+
+
+ <!--LEO section-->   
+
+<div class="Box container" id="hidden3" style="display: block;">
+    <div class="row">
+        <div class="col-sm-4" style="background-color:lavender;">
+            <img class="stuffImg" src="image/designer4.jpg"  width="80%" onmouseover="showbut3()">
+        </div>
+    <br><br>
+    <div class="col-sm-8 style=" style="background-color:lavenderblush;">
+        <div  id= "demo" class="container">      
+        <div class="card" color = "grey" > 
+            <br>
+            <div class="text-box">
+                <div id= "discript" class="container">
+                    <h2>Leo Tonny</h2>
+                    <hr width="100%" color ="black">
+                    <p class="title">Junior designer</p>
+                    <p>Our youngest but cherished designer for our home and office cleints. His design has lots of culture elemnts from differnt country, especially middle east and eroupean.  </p>
+                    <p>leo.tonny@captivateinteriors.com</p>
+              
+              <button onclick="hiderow3()" class="btn btn-outline-dark" id="showbutton3" style="display: none;">hide</button>
+            </div><br>
+          </div>        
+          </div> 
+          </div>               
+    </div>
+    </div>
+    </div> 
+
+<div class="container" id="hidden4" style="display: block;">
+    <div class="row">
+        <div class="col">
+            <img class="stuffImg" src="image/service3.jpg"  width="80%" onmouseover="showbut4()">
+    
+        </div>
+    <br><br>
+    <div class="col-sm-8 style=" style="background-color:lavenderblush;">
+        <div  id= "demo" class="container">      
+        <div class="card" color = "grey" > 
+            <br>
+            <div class="text-box">
+            <div  id= "discript" class="container" >
+              <h2  onclick="myFunction()">Jane Li</h2>
+              <hr width="100%" color ="black">
+              <p class="title">Art Director </p>    
+              <div id="text1">
+                <p>This beautiful young lady is another rewarded designer for home and office interior design. Her Asian background and Morden art conception help her build up a very unique style of her work. She can speak Chinese Korean and Japanese language.</p>
+                <p>jane.li@captivateinteriors.com</p>
+                  </div>
+                
+                <button onclick="hiderow4()" class="btn btn-outline-dark" id="showbutton4" style="display: none;">hide</button> 
+            </div><br>
+          </div>        
+          </div> 
+          </div>    
+      
+    </div>
+    </div>
+    </div>
+    <!--hide the Tina-->
+<div class="Box container" id="hidden6" style="display: block;">
+    <div class="row">
+        <div class="col">
+    <img class="stuffImg" src="image/service11.jpg" width="80%" onmouseover="showbut6()">
+        </div>
+    <br><br>
+    <div class="col-sm-8 style=" style="background-color:lavenderblush;">
+        <div  id= "demo" class="container">      
+        <div class="card" color = "grey" > 
+            <br>
+            <div class="text-box">
+            <div  id= "discript" class="container" >
+            <h2>Tina Liu</h2>
+            <hr width="100%" color ="black">
+            <p class="title">Service Manager </p>
+            <p>Tina is our senour service manager. Anything you concern can just let her know. She will offer our best support for you! Your experience here is matter for us!  </p>
+            <p>tina.liu@captivateinteriors.com</p>
+            <button onclick="hiderow6()" class="btn btn-outline-dark" id="showbutton6" style="display: none;">hide</button>  
+            </div><br>
+          </div>        
+          </div> 
+          </div>  
+        </p>
+    </div>
+    </div>
+    </div>
+
+<!-- the original design for record the changing // canbe used later.
+<div  class="container">  
+<h1  align="center">Our Team </h1>
+<hr width="100%" weight="500px" color="black">
+</div>
+<div  class="container">
+<div class="about-section">
+
+<div class="row"  >
+  <div class="column" id="hidden1" style="display: block;" >
+    <div id="clerk" class="card" color ="grey" onclick="ChangeMd()">
+        <img id=img src="CEO.jpg"  alt="CEO" style="width:80%" onclick="changeImg()">
+      <div  id= "discript" class="container" >
+        <h2 id= "name" onclick="changeName()">David Johnson</h2>
+        <p id="title" onclick="changeTitle()">CEO & Founder</p>
+        <p id = "text" onclick="changeText()">Not only CEO, But also top designer and reliable leader of our outstanding team. As a sucessful business man he is famous with his outstanding works and good reputation.  </p>
+        <p id = "text1" onclick="changeText1()">david.johnson@captivateinteriors.com</p>--> 
+       <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->       
+         <!-- <button onclick="hideCard()" class="btn btn-defult" id="showbutton" style="display: none;"></button> -->
+        
+ <!--</div>       
+    </div>
+  </div>
+
+  <div class="column" id="hidden1" style="display: block;">
+    <div class="card" id=Md onclick="hideMd()" >
+      <img   src="designer2.jpg" alt="Mike" style="width:80%" onmouseover="showBut()" >
+      <div class="container" >
+        <h2 >Mike Ross</h2>
+        <p >Manager Director</p>
+        <div id="text1">
+        <p >Mike, our MD, is the rewarded young designer in the industry. His works full of innovation and imagination. If you like the Post-industrial style and Avant-garde design, don't hesitate to contact him!</p>
+        </div>
+      <p>mike.ross@captivateinteriors.com</p>-->
+        <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->
+<!-- <button onclick="hideMd()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> 
+        
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="column" id="hidden1" style="display: block;">
+    <div  id="Jone"class="card" onclick="hideJone()">
+      <img src="coo1.jpg" alt="Jone" style="width:80%" onmouseover="showBut()" >--><!--do not  work "onmouseover="showbut1()" "need to check"-->
+      <!--<div id= "discript" class="container">
+        <h2>Jone Doe</h2>
+        <p class="title">Designer</p>
+        <p>Jone is our senior designer with 10-year experiences on the hotel and restaurant design. If you want a luxury style but not that much waste of your money, she is the best one you can talk to!</p>
+        <p>jone.doe@captivateinteriors.com</p>-->
+         <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->
+     <!--  <button onclick="hiderow()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> 
+      </div>
+    </div>
+  </div>
+    <div class="row" color = "grey">
+      <div class="column" id="hidden1" style="display: block;">
+        <div  id="Leo" class="card" onclick="hideLeo()" >-->
+          <!--<img src="designer4.jpg" alt="Jane" style="width:80%" onmouseover="showbut1()" >--><!--do not  work "onmouseover="showbut1()" "need to check"-->
+        <!-- <div id= "discript" class="container">
+            <h2>Leo Tonny</h2>
+            <p class="title">Junior designer</p>
+            <p>Our youngest but cherished designer for our home and office cleints. His design has lots of culture elemnts from differnt country, especially middle east and eroupean.  </p>
+            <p>leo.tonny@captivateinteriors.com</p>-->
+           <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->
+          <!-- <button onclick="hiderow1()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> --><!-- a hiden button -->
+      <!--</div>
+        </div>
+      </div>
+    
+      <div class="column"id="hidden1" style="display: block;">
+        <div  id="Jane" class="card" onclick="hideJane()">
+          <img src="service3.jpg" alt="Mike" style="width:80%" onmouseover="showButton()" >
+          <div id= "discript" class="container">
+            <h2>Jane Li</h2>
+            <p class="title">Art Director</p>
+            <p>This beautiful young lady is another rewarded designer for home and office interior design. Her Asian background and Morden art conception help her build up a very unique style of her work. She can speak Chinese Korean and Japanese language.</p>
+            <p>jane.li@captivateinteriors.com</p>--> 
+            <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->
+          <!--  <button onclick="hideCard()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="column" id="hidden1" style="display: block;">
+        <div  id="Tina" class="card" onclick="hideTina()">
+          <img src="service11.jpg" alt="John" style="width:80%" onmouseover="showButton()" >
+          <div id= "discript" class="container">
+            <h2>Tina Liu</h2>
+            <p class="title">Service Manager </p>
+            <p>Tina is our senour service manager. Anything you concern can just let her know. She will offer our best support for you! Your experience here is matter for us!  </p>
+            <p>tina.liu@captivateinteriors.com</p>-->
+             <!-- <p><button class="button"><a href="contactus.html">Contact</a></button></p>	-->
+          <!--  <button onclick="hideCard()" class="btn btn-outline-dark" id="showbutton" style="display: none;">hide</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+-->
+<footer class="container-fluid text-center">
+  <hr width="1850" weight=50px float="right" color = "darkgrey">
+    <p  align="center" margin="5px"><font size="2" face="arial" color="white">FOLLOW US</font></p>
+    <p><a href="https://www.facebook.com"  class="fa fa-facebook"></a>
+      <a href="https://twitter.com" class="fa fa-twitter"></a>
+      <a href="https://www.facebook.com" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com" class="fa fa-linkedin" aria-hidden="true"></a>
+      <a href="https://www.facebook.com" class="fa fa-youtube" >
+    </a></p>
+</footer>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
